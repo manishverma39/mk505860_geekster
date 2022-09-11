@@ -1,0 +1,246 @@
+//1)Leetcode Compiler :- https://leetcode.com/playground/new/empty
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
+
+//3)Hackerrank Links :-
+
+//4)
+
+//5)
+
+//7)Class work questions :-
+
+//8)https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-the-oldest-among-three
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+   Scanner sc=new Scanner(System.in);
+    int a=sc.nextInt();
+    int b=sc.nextInt();
+    int c=sc.nextInt();
+        if((a>b)&&(a>c))
+        {
+            System.out.println("A");
+        }
+        if((b>c)&&(b>a))
+        {
+            System.out.println("B");
+        }
+        if((c>a)&&(c>b))
+        {
+            System.out.println("C");
+        }
+    }
+}
+
+//9)https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/tell-about-x-y
+
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    Scanner sc=new Scanner(System.in);
+    int x=sc.nextInt();
+     int y=sc.nextInt();
+     if((x>=59) && (y>=10))
+        {
+            System.out.println("X is greater than or equal to 59 and y is greater than or equal to 10");
+        }
+     else if((x>=50)&&(y<10))
+     {
+       System.out.println("X is greater than or equal to 50 and y is less than 10");
+      }
+     else
+     {
+         System.ouprintln()ln("None of the condition matches");
+     }
+    
+    }
+}
+
+//10)https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-the-final-incremented-salary
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    Scanner sc=new Scanner(System.in);
+    int age=sc.nextInt();
+    int salary=sc.nextInt();
+    int experience=sc.nextInt();
+        if((age>60)&&(salary>20000)&&(experience>20))
+           {
+               salary=salary+5000;
+           }
+           else{
+               if((age>40)&&(salary>15000)&&(experience>10))
+           {
+               salary=salary+2000;
+           }
+            else{
+              if((age>30)&&(salary>10000)&&(experience>5))
+           {
+               salary=salary+1000;
+           }
+           else
+           {
+              salary=salary+500; 
+           }
+            }
+    //System.out.println(salary);
+
+}
+        System.out.println(salary);
+}
+}
+
+//11)https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/top-management-or-not
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. *}
+}*/
+Scanner sc=new Scanner(System.in);
+int experience=sc.nextInt();
+int salary=sc.nextInt();
+int rank=sc.nextInt();
+        if(experience>=10 ||salary>=50000 ||rank>=10){
+            System.out.println("You are in top management");
+        }
+        else{
+            System.out.println("You are not in top management");
+        }
+    }
+}
+
+//12)https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-final-z-given-xyz
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    Scanner sc=new Scanner (System.in);
+    int x=sc.nextInt();
+    int y=sc.nextInt();
+    int z=sc.nextInt();
+        if(x>=20)
+        {
+            if(y>=100)
+            {
+                z=z+100;
+            }
+            else if((y<=100)&& (y>=50))
+            {
+                z=z+50;
+            }
+            else 
+            {
+                z=z+10;
+            }
+                
+        }
+        else
+        {
+            if(y>=100)
+            {
+                z=z+3;
+            }
+            else if((y<100) && (y>=50))
+            {
+                z=z+2;
+            }
+            else{
+                z=z+1;
+            }
+        }
+         System.out.println(z);
+        }
+    }
+
+//14)Home work questions :-
+
+//15)https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-above-given-ab
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    Scanner sc=new Scanner(System.in);
+    int a=sc.nextInt();
+    int b=sc.nextInt();
+        if((a>100)&&(b>10))
+        {
+            System.out.println("a is above 100 and b is above 10");
+        }
+        else if((a>50)&&(b>50))
+        {
+            System.out.println("a is above 50 and b is above 50");
+        }
+        else if((a>20)&&(b>100))
+        {
+           System.out.println("a is above 20 and b is above 100");
+        }
+        else
+        {
+            System.out.println("None");
+        }
+    }
+}
+
+//16)https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/height-weight-and-age
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+   Scanner sc=new Scanner(System.in);
+    int height=sc.nextInt();
+    int weight=sc.nextInt();
+    int age=sc.nextInt();
+        if((height==5)&&(weight==50)&&(age==10))
+           {
+               System.out.println("Overweight");
+           }
+        else  if((height==5)||(weight==60))
+        {
+           System.out.println("Fat");
+        }
+        else  if((height==6)&&(weight==50))
+        {
+            System.out.println("Slim");
+        }
+        else
+        {
+            System.out.println("None");
+        }
+}
+}
