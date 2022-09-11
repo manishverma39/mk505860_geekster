@@ -1,0 +1,112 @@
+//1)Leetcode Compiler :- https://leetcode.com/playground/new/empty
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
+
+
+//3)Hackerrank Links :-
+
+//4)Class Challenges: https://www.hackerrank.com/aug22-java-dsa-class-challenges
+
+
+
+
+
+
+
+
+//7)Class work questions :-
+
+//8)https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/male-or-female-1
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+   Scanner sc=new Scanner(System.in);
+    char ch = sc.next().charAt(0);
+     if(ch=='m' ||ch=='M')
+        {
+            System.out.println("You are a male");
+        }
+        else if(ch=='f' ||ch=='F')
+        {
+            System.out.println("You are a female");
+        }
+        else{
+            System.out.println("Type again");
+        }
+    }
+}
+
+
+//9)https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/concatenate-two-strings-2-1
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+   Scanner sc=new Scanner(System.in);
+    String s1=sc.next();
+    String s2=sc.next();
+        System.out.println(s1+s2);
+        
+    
+    }
+}
+
+
+//10)https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/string-concatenate-2
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    Scanner sc=new Scanner(System.in);
+    String a=sc.next();
+    String b=sc.next();
+        if(a.length()>b.length())
+        {
+            System.out.println(b+a+b);
+        }
+        else{
+          System.out.println(a+b+a);  
+        }
+    }
+}
+
+//12)Home work questions :-
+
+//13)https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/concatenate-3-strings
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+    String s1=sc.next();
+    String s2=sc.next();
+    String s3=sc.next();
+        System.out.println(s1+s2+s3);
+        
+    
+    }
+}
+  
+  
+//14)https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/basic-calculator-9-1
+
